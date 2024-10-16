@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-04-27 23:04:02 +0100
-categories: jekyll update
+title: "Welcome to My Personal Page"
+date: {{ site.time | date: "%Y-%m-%d %H:%M:%S %z" }}
+categories: updates
+---
+
+Welcome to my personal page! Here, you'll find updates on my research, projects, and other academic pursuits. Stay tuned for more information and feel free to explore the content I share.
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
